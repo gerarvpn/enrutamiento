@@ -1,1 +1,32 @@
-z
+{
+  "type": "field",
+  "outboundTag": "block",
+  "network": "udp",
+  "domain": [
+    "geosite:youtube",
+    "domain:youtube.com",
+    "domain:googlevideo.com",
+    "domain:youtubei.googleapis.com",
+    "domain:ytimg.com"
+  ]
+},
+{
+  "type": "field",
+  "outboundTag": "block",
+  "protocol": ["quic"],
+  "domain": [
+    "geosite:youtube",
+    "domain:youtube.com",
+    "domain:googlevideo.com"
+  ]
+},
+{
+  "type": "field",
+  "outboundTag": "block",
+  "domain": [
+    "domain:ads.youtube.com",
+    "domain:pagead2.googlesyndication.com",
+    "domain:googleads.g.doubleclick.net",
+    "domain:video-ads.googlevideo.com"
+  ]
+}
